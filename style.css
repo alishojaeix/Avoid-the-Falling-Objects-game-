@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #game-container {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background-color: #87CEEB; /* Sky blue */
+    overflow: hidden;
+    border: 2px solid #333;
+  }
+  
+  #player {
+    position: absolute;
+    bottom: 20px;
+    left: 180px;
+    width: 40px;
+    height: 40px;
+    background-color: #FF4500; /* Orange */
+    border-radius: 5px;
+  }
+  
+  .falling-object {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #000; /* Black */
+    border-radius: 50%;
+  }
+  
+  #score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+  }
